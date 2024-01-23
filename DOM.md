@@ -4,7 +4,8 @@
 ​
 - HTML요소는 (HTML element)는 HTML 문서를 구성하는 개별적인 요소를 의미함.
 ​
-​
+​![image](https://github.com/Modern-JS-DeepDive-Study/Namjun/assets/69416561/d12be51f-4cdb-4b28-bef3-d0f791eb8c83)
+
 - 다음의 HTML 요소는 렌더링 엔진에 의해 파싱되어, DOM을 구성하는 요소 노드 객체로 변환됨. 
 ​
 - 먼저 위의 예시의 `<p></p>` 태그는 요소 노드, `class='para'`는 어트리뷰트 노드, 'TCPschool.com'은 텍스트 노드로 변환됨.
@@ -14,7 +15,8 @@
 - 이런 노드 객체들로 구성된 트리 자료구조를 **DOM**이라고 부르늣 것임.
 ​
 #### **참고 : 트리 자료구조**
-​
+​![image](https://github.com/Modern-JS-DeepDive-Study/Namjun/assets/69416561/7025d777-a0e3-42b1-b1e9-3625fe5413ae)
+
 ​
 1. 트리 자료구조는 부모 노드와 자식 노드로 구성되어 **노드 간의 계층적 구조를 표현하는 비선형 자료구조**임. 
 ​
@@ -34,6 +36,7 @@
 ​
 ### **📌 노드 객체의 상속 구조**
 ​
+![image](https://github.com/Modern-JS-DeepDive-Study/Namjun/assets/69416561/2d381a6e-c6eb-4bf6-aa51-325bddd0197e)
 
 ​
 - DOM을 구성하는 노드 객체는 자신의 구조와 정보를 제어할 수 있는 DOM API를 사용할 수 있음. 이를 통해 자신의 부모, 형제, 자식을 탐색할 수 있고, 자신의 어트리뷰트와 텍스트를 조작할 수 있는 것임.
